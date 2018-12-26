@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="43" failures="0" name="RunnerTest" time="0.024" errors="0" skipped="0">
+<testsuite tests="43" failures="0" name="RunnerTest" time="0.016" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
@@ -65,15 +65,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Deve alugar um fime sucesso" name="Given um filme" time="0.004"/>
+  <testcase classname="Scenario: Deve alugar um fime sucesso" name="Given um filme" time="0.011"/>
   <testcase classname="Scenario: Deve alugar um fime sucesso" name="When alugar" time="0"/>
   <testcase classname="Scenario: Deve alugar um fime sucesso" name="Then o preco do aluguel sera R$ 3" time="0"/>
   <testcase classname="Scenario: Deve alugar um fime sucesso" name="And a data de entrega sera em 1 dia" time="0"/>
   <testcase classname="Scenario: Deve alugar um fime sucesso" name="And o estoque do filme sera 1 unidade" time="0"/>
-  <testcase classname="Scenario: Deve alugar um fime sucesso" name="Scenario: Deve alugar um fime sucesso" time="0"/>
+  <testcase classname="Scenario: Deve alugar um fime sucesso" name="Scenario: Deve alugar um fime sucesso" time="0.001"/>
   <testcase classname="Scenario: Nao deve alugar filme sem estoque" name="Given um filme com estoque de 0 unidades" time="0"/>
   <testcase classname="Scenario: Nao deve alugar filme sem estoque" name="When alugar" time="0"/>
-  <testcase classname="Scenario: Nao deve alugar filme sem estoque" name="Then nao sera possivel por falta de estoque" time="0.002"/>
+  <testcase classname="Scenario: Nao deve alugar filme sem estoque" name="Then nao sera possivel por falta de estoque" time="0"/>
   <testcase classname="Scenario: Nao deve alugar filme sem estoque" name="And o estoque do filme sera 0 unidade" time="0"/>
   <testcase classname="Scenario: Nao deve alugar filme sem estoque" name="Scenario: Nao deve alugar filme sem estoque" time="0"/>
   <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="Given um filme com estoque de 2 unidades" time="0"/>
@@ -83,7 +83,7 @@
   <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="Then o preco do aluguel sera R$ 8" time="0"/>
   <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="And a data de entrega sera em 3 dias" time="0"/>
   <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="And a pontuacao sera de 2 pontos" time="0"/>
-  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="| 4 | extendido | 8 | 3 | 2 |" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="| 4 | extendido | 8 | 3 | 2 |" time="0.001"/>
   <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="Given um filme com estoque de 2 unidades" time="0"/>
   <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="And que o preco do aluguel seja R$ 4" time="0"/>
   <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="And que o tipo do aluguel seja comum" time="0"/>
@@ -91,15 +91,15 @@
   <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="Then o preco do aluguel sera R$ 4" time="0"/>
   <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="And a data de entrega sera em 1 dias" time="0"/>
   <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="And a pontuacao sera de 1 pontos" time="0"/>
-  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="| 4 | comum | 4 | 1 | 1 |" time="0.001"/>
-  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="Given um filme com estoque de 2 unidades" time="0.001"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="| 4 | comum | 4 | 1 | 1 |" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="Given um filme com estoque de 2 unidades" time="0"/>
   <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="And que o preco do aluguel seja R$ 10" time="0"/>
   <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="And que o tipo do aluguel seja extendido" time="0"/>
-  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="When alugar" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="When alugar" time="0.001"/>
   <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="Then o preco do aluguel sera R$ 20" time="0"/>
   <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="And a data de entrega sera em 3 dias" time="0"/>
-  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="And a pontuacao sera de 2 pontos" time="0.008"/>
-  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="| 10 | extendido | 20 | 3 | 2 |" time="0.008"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="And a pontuacao sera de 2 pontos" time="0.001"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="| 10 | extendido | 20 | 3 | 2 |" time="0.001"/>
   <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="Given um filme com estoque de 2 unidades" time="0"/>
   <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="And que o preco do aluguel seja R$ 5" time="0"/>
   <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="And que o tipo do aluguel seja semanal" time="0"/>
