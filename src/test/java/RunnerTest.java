@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty","html:target/report-html","json:target/report.json"},
-        monochrome = false,
+        monochrome = true,
         snippets = SnippetType.CAMELCASE,
         features = "src/test/java/resource/inserir_conta.feature",
         dryRun = false,

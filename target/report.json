@@ -9,19 +9,19 @@
     "line": 2,
     "elements": [
       {
-        "line": 8,
-        "name": "Deve inserir uma conta com sucesso",
+        "line": 22,
+        "name": "Não deve inserir uma conta sem nome",
         "description": "",
-        "id": "cadastro-de-contas;deve-inserir-uma-conta-com-sucesso",
+        "id": "cadastro-de-contas;não-deve-inserir-uma-conta-sem-nome",
         "type": "scenario",
         "keyword": "Cenário",
         "steps": [
           {
             "result": {
-              "duration": 7265715200,
+              "duration": 17975659700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 23,
             "name": "que estou acessando a aplicação",
             "match": {
               "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
@@ -30,10 +30,10 @@
           },
           {
             "result": {
-              "duration": 245438300,
+              "duration": 270531300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 24,
             "name": "informo o usuário \"gloomybrgames@gmail.com\"",
             "match": {
               "arguments": [
@@ -48,10 +48,10 @@
           },
           {
             "result": {
-              "duration": 130758300,
+              "duration": 157601000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 25,
             "name": "a senha \"pedro1997\"",
             "match": {
               "arguments": [
@@ -66,10 +66,10 @@
           },
           {
             "result": {
-              "duration": 1149575800,
+              "duration": 2653471000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 26,
             "name": "seleciono entrar",
             "match": {
               "location": "InserirContasSteps.selecionoEntrar()"
@@ -78,10 +78,10 @@
           },
           {
             "result": {
-              "duration": 58285600,
+              "duration": 74138800,
               "status": "passed"
             },
-            "line": 13,
+            "line": 27,
             "name": "visualizo a página inicial",
             "match": {
               "location": "InserirContasSteps.visualizoAPáginaInicial()"
@@ -90,10 +90,10 @@
           },
           {
             "result": {
-              "duration": 99308800,
+              "duration": 116782600,
               "status": "passed"
             },
-            "line": 14,
+            "line": 28,
             "name": "seleciono Contas",
             "match": {
               "location": "InserirContasSteps.selecionoContas()"
@@ -102,10 +102,10 @@
           },
           {
             "result": {
-              "duration": 332262600,
+              "duration": 2317379500,
               "status": "passed"
             },
-            "line": 15,
+            "line": 29,
             "name": "seleciono Adicionar",
             "match": {
               "location": "InserirContasSteps.selecionoAdicionar()"
@@ -114,15 +114,145 @@
           },
           {
             "result": {
-              "duration": 184159200,
+              "duration": 750158700,
               "status": "passed"
             },
-            "line": 16,
-            "name": "informo a conta \"Conta de Teste2\"",
+            "line": 30,
+            "name": "seleciono Salvar",
+            "match": {
+              "location": "InserirContasSteps.selecionoSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 57808200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "sou notificado que o nome da conta é obrigatório",
+            "match": {
+              "location": "InserirContasSteps.souNotificadoQueONomeDaContaÉObrigatório()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Não deve inserir uma conta com nome já existente",
+        "description": "",
+        "id": "cadastro-de-contas;não-deve-inserir-uma-conta-com-nome-já-existente",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 12267452100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "que estou acessando a aplicação",
+            "match": {
+              "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 333228000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "informo o usuário \"gloomybrgames@gmail.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Conta de Teste2",
+                  "val": "gloomybrgames@gmail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.informoOUsuário(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 174724700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "a senha \"pedro1997\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pedro1997",
+                  "offset": 9
+                }
+              ],
+              "location": "InserirContasSteps.aSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1225741300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "InserirContasSteps.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 91193000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "visualizo a página inicial",
+            "match": {
+              "location": "InserirContasSteps.visualizoAPáginaInicial()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 132787200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "seleciono Contas",
+            "match": {
+              "location": "InserirContasSteps.selecionoContas()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 368662200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "InserirContasSteps.selecionoAdicionar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 198574700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "informo a conta \"Conta de Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Conta de Teste",
                   "offset": 17
                 }
               ],
@@ -132,10 +262,10 @@
           },
           {
             "result": {
-              "duration": 442122500,
+              "duration": 486739200,
               "status": "passed"
             },
-            "line": 17,
+            "line": 42,
             "name": "seleciono Salvar",
             "match": {
               "location": "InserirContasSteps.selecionoSalvar()"
@@ -144,13 +274,13 @@
           },
           {
             "result": {
-              "duration": 43566000,
+              "duration": 98375100,
               "status": "passed"
             },
-            "line": 18,
-            "name": "a conta é inserida com sucesso",
+            "line": 43,
+            "name": "sou notificado que já existe uma conta com esse nome",
             "match": {
-              "location": "InserirContasSteps.aContaÉInseridaComSucesso()"
+              "location": "InserirContasSteps.souNotificadoQueJáExisteUmaContaComEsseNome()"
             },
             "keyword": "Então "
           }
