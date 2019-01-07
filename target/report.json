@@ -9,16 +9,38 @@
     "line": 2,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 383200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.inicio()"
+            }
+          }
+        ],
         "line": 22,
         "name": "Não deve inserir uma conta sem nome",
         "description": "",
         "id": "cadastro-de-contas;não-deve-inserir-uma-conta-sem-nome",
+        "after": [
+          {
+            "result": {
+              "duration": 1062134400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.fecharBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Cenário",
         "steps": [
           {
             "result": {
-              "duration": 17975659700,
+              "duration": 9890960500,
               "status": "passed"
             },
             "line": 23,
@@ -30,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 270531300,
+              "duration": 327837400,
               "status": "passed"
             },
             "line": 24,
@@ -48,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 157601000,
+              "duration": 168237700,
               "status": "passed"
             },
             "line": 25,
@@ -66,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 2653471000,
+              "duration": 1663074500,
               "status": "passed"
             },
             "line": 26,
@@ -78,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 74138800,
+              "duration": 74954800,
               "status": "passed"
             },
             "line": 27,
@@ -90,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 116782600,
+              "duration": 116454500,
               "status": "passed"
             },
             "line": 28,
@@ -102,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 2317379500,
+              "duration": 483454000,
               "status": "passed"
             },
             "line": 29,
@@ -114,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 750158700,
+              "duration": 312791300,
               "status": "passed"
             },
             "line": 30,
@@ -126,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 57808200,
+              "duration": 70355900,
               "status": "passed"
             },
             "line": 31,
@@ -139,16 +161,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 76900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.inicio()"
+            }
+          }
+        ],
         "line": 33,
         "name": "Não deve inserir uma conta com nome já existente",
         "description": "",
         "id": "cadastro-de-contas;não-deve-inserir-uma-conta-com-nome-já-existente",
+        "after": [
+          {
+            "result": {
+              "duration": 932058600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.fecharBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Cenário",
         "steps": [
           {
             "result": {
-              "duration": 12267452100,
+              "duration": 7701299800,
               "status": "passed"
             },
             "line": 34,
@@ -160,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 333228000,
+              "duration": 321117200,
               "status": "passed"
             },
             "line": 35,
@@ -178,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 174724700,
+              "duration": 178923500,
               "status": "passed"
             },
             "line": 36,
@@ -196,7 +240,7 @@
           },
           {
             "result": {
-              "duration": 1225741300,
+              "duration": 1410218700,
               "status": "passed"
             },
             "line": 37,
@@ -208,7 +252,7 @@
           },
           {
             "result": {
-              "duration": 91193000,
+              "duration": 70558800,
               "status": "passed"
             },
             "line": 38,
@@ -220,7 +264,7 @@
           },
           {
             "result": {
-              "duration": 132787200,
+              "duration": 138565700,
               "status": "passed"
             },
             "line": 39,
@@ -232,7 +276,7 @@
           },
           {
             "result": {
-              "duration": 368662200,
+              "duration": 380527300,
               "status": "passed"
             },
             "line": 40,
@@ -244,7 +288,7 @@
           },
           {
             "result": {
-              "duration": 198574700,
+              "duration": 193811800,
               "status": "passed"
             },
             "line": 41,
@@ -262,7 +306,7 @@
           },
           {
             "result": {
-              "duration": 486739200,
+              "duration": 414095200,
               "status": "passed"
             },
             "line": 42,
@@ -274,7 +318,7 @@
           },
           {
             "result": {
-              "duration": 98375100,
+              "duration": 57708400,
               "status": "passed"
             },
             "line": 43,

@@ -1,6 +1,8 @@
 package stepdefs;
 
 import cucumber.api.PendingException;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.it.Quando;
 import cucumber.api.java.pt.Então;
@@ -77,5 +79,16 @@ public class InserirContasSteps {
     public void souNotificadoQueJáExisteUmaContaComEsseNome() throws Throwable {
         String texto = driver.findElement(By.xpath("//div[@class='alert alert-danger']")).getText();
         Assert.assertEquals("Já existe uma conta com esse nome!",texto);
+    }
+
+
+    @Before
+    public void inicio(){
+        System.out.println("Começando aqui.");
+    }
+    @After
+    public void fecharBrowser(){
+        driver.quit();
+        System.out.println("Terminando.");
     }
 }
