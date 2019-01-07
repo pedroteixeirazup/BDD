@@ -13,11 +13,120 @@ formatter.feature({
   "keyword": "Funcionalidade"
 });
 formatter.before({
-  "duration": 188800,
+  "duration": 176200,
+  "status": "passed"
+});
+formatter.background({
+  "comments": [
+    {
+      "line": 8,
+      "value": "#Background"
+    }
+  ],
+  "line": 9,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Contexto"
+});
+formatter.step({
+  "line": 10,
+  "name": "que estou acessando a aplicação",
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 11,
+  "name": "informo o usuário \"gloomybrgames@gmail.com\"",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 12,
+  "name": "a senha \"pedro1997\"",
+  "keyword": "E "
+});
+formatter.step({
+  "line": 13,
+  "name": "seleciono entrar",
+  "keyword": "E "
+});
+formatter.step({
+  "line": 14,
+  "name": "visualizo a página inicial",
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 15,
+  "name": "seleciono Contas",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 16,
+  "name": "seleciono Adicionar",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
+});
+formatter.result({
+  "duration": 6489076500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "gloomybrgames@gmail.com",
+      "offset": 19
+    }
+  ],
+  "location": "InserirContasSteps.informoOUsuário(String)"
+});
+formatter.result({
+  "duration": 268105000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "pedro1997",
+      "offset": 9
+    }
+  ],
+  "location": "InserirContasSteps.aSenha(String)"
+});
+formatter.result({
+  "duration": 155375500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "InserirContasSteps.selecionoEntrar()"
+});
+formatter.result({
+  "duration": 1302100000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "InserirContasSteps.visualizoAPáginaInicial()"
+});
+formatter.result({
+  "duration": 87960500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "InserirContasSteps.selecionoContas()"
+});
+formatter.result({
+  "duration": 125455700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "InserirContasSteps.selecionoAdicionar()"
+});
+formatter.result({
+  "duration": 345978400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 8,
+  "line": 18,
   "name": "Deve inserir uma conta com sucesso",
   "description": "",
   "id": "cadastro-de-contas;deve-inserir-uma-conta-com-sucesso",
@@ -25,60 +134,108 @@ formatter.scenario({
   "keyword": "Cenário"
 });
 formatter.step({
-  "line": 9,
-  "name": "que estou acessando a aplicação",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 10,
-  "name": "informo o usuário \"gloomybrgames@gmail.com\"",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 11,
-  "name": "a senha \"pedro1997\"",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 12,
-  "name": "seleciono entrar",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 13,
-  "name": "visualizo a página inicial",
-  "keyword": "Então "
-});
-formatter.step({
-  "line": 14,
-  "name": "seleciono Contas",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 15,
-  "name": "seleciono Adicionar",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 16,
+  "line": 19,
   "name": "informo a conta \"Conta de Teste\"",
   "keyword": "E "
 });
 formatter.step({
-  "line": 17,
+  "line": 20,
   "name": "seleciono Salvar",
   "keyword": "E "
 });
 formatter.step({
-  "line": 18,
+  "line": 21,
   "name": "a conta é inserida com sucesso",
   "keyword": "Então "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Conta de Teste",
+      "offset": 17
+    }
+  ],
+  "location": "InserirContasSteps.informoAConta(String)"
+});
+formatter.result({
+  "duration": 189633800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "InserirContasSteps.selecionoSalvar()"
+});
+formatter.result({
+  "duration": 564802000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "InserirContasSteps.aContaÉInseridaComSucesso()"
+});
+formatter.result({
+  "duration": 53773000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 839927700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 61300,
+  "status": "passed"
+});
+formatter.background({
+  "comments": [
+    {
+      "line": 8,
+      "value": "#Background"
+    }
+  ],
+  "line": 9,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Contexto"
+});
+formatter.step({
+  "line": 10,
+  "name": "que estou acessando a aplicação",
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 11,
+  "name": "informo o usuário \"gloomybrgames@gmail.com\"",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 12,
+  "name": "a senha \"pedro1997\"",
+  "keyword": "E "
+});
+formatter.step({
+  "line": 13,
+  "name": "seleciono entrar",
+  "keyword": "E "
+});
+formatter.step({
+  "line": 14,
+  "name": "visualizo a página inicial",
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 15,
+  "name": "seleciono Contas",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 16,
+  "name": "seleciono Adicionar",
+  "keyword": "E "
 });
 formatter.match({
   "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
 });
 formatter.result({
-  "duration": 5401524600,
+  "duration": 6439902000,
   "status": "passed"
 });
 formatter.match({
@@ -91,7 +248,7 @@ formatter.match({
   "location": "InserirContasSteps.informoOUsuário(String)"
 });
 formatter.result({
-  "duration": 273210400,
+  "duration": 321008200,
   "status": "passed"
 });
 formatter.match({
@@ -104,74 +261,39 @@ formatter.match({
   "location": "InserirContasSteps.aSenha(String)"
 });
 formatter.result({
-  "duration": 140650900,
+  "duration": 180071100,
   "status": "passed"
 });
 formatter.match({
   "location": "InserirContasSteps.selecionoEntrar()"
 });
 formatter.result({
-  "duration": 1164692200,
+  "duration": 1616264000,
   "status": "passed"
 });
 formatter.match({
   "location": "InserirContasSteps.visualizoAPáginaInicial()"
 });
 formatter.result({
-  "duration": 68642700,
+  "duration": 59412600,
   "status": "passed"
 });
 formatter.match({
   "location": "InserirContasSteps.selecionoContas()"
 });
 formatter.result({
-  "duration": 114034900,
+  "duration": 184188900,
   "status": "passed"
 });
 formatter.match({
   "location": "InserirContasSteps.selecionoAdicionar()"
 });
 formatter.result({
-  "duration": 341343600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Conta de Teste",
-      "offset": 17
-    }
-  ],
-  "location": "InserirContasSteps.informoAConta(String)"
-});
-formatter.result({
-  "duration": 187286700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "InserirContasSteps.selecionoSalvar()"
-});
-formatter.result({
-  "duration": 540312000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "InserirContasSteps.aContaÉInseridaComSucesso()"
-});
-formatter.result({
-  "duration": 48493300,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 809436900,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 72600,
+  "duration": 384333700,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 21,
+  "line": 24,
   "name": "Não deve inserir uma conta sem nome",
   "description": "",
   "id": "cadastro-de-contas;não-deve-inserir-uma-conta-sem-nome",
@@ -179,55 +301,90 @@ formatter.scenario({
   "keyword": "Cenário"
 });
 formatter.step({
-  "line": 22,
-  "name": "que estou acessando a aplicação",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 23,
-  "name": "informo o usuário \"gloomybrgames@gmail.com\"",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 24,
-  "name": "a senha \"pedro1997\"",
-  "keyword": "E "
-});
-formatter.step({
   "line": 25,
-  "name": "seleciono entrar",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 26,
-  "name": "visualizo a página inicial",
-  "keyword": "Então "
-});
-formatter.step({
-  "line": 27,
-  "name": "seleciono Contas",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 28,
-  "name": "seleciono Adicionar",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 29,
   "name": "seleciono Salvar",
   "keyword": "E "
 });
 formatter.step({
-  "line": 30,
+  "line": 26,
   "name": "sou notificado que o nome da conta é obrigatório",
   "keyword": "Então "
+});
+formatter.match({
+  "location": "InserirContasSteps.selecionoSalvar()"
+});
+formatter.result({
+  "duration": 314320900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "InserirContasSteps.souNotificadoQueONomeDaContaÉObrigatório()"
+});
+formatter.result({
+  "duration": 71484000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 927206100,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 83300,
+  "status": "passed"
+});
+formatter.background({
+  "comments": [
+    {
+      "line": 8,
+      "value": "#Background"
+    }
+  ],
+  "line": 9,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Contexto"
+});
+formatter.step({
+  "line": 10,
+  "name": "que estou acessando a aplicação",
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 11,
+  "name": "informo o usuário \"gloomybrgames@gmail.com\"",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 12,
+  "name": "a senha \"pedro1997\"",
+  "keyword": "E "
+});
+formatter.step({
+  "line": 13,
+  "name": "seleciono entrar",
+  "keyword": "E "
+});
+formatter.step({
+  "line": 14,
+  "name": "visualizo a página inicial",
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 15,
+  "name": "seleciono Contas",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 16,
+  "name": "seleciono Adicionar",
+  "keyword": "E "
 });
 formatter.match({
   "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
 });
 formatter.result({
-  "duration": 5848228000,
+  "duration": 6521633800,
   "status": "passed"
 });
 formatter.match({
@@ -240,7 +397,7 @@ formatter.match({
   "location": "InserirContasSteps.informoOUsuário(String)"
 });
 formatter.result({
-  "duration": 274853300,
+  "duration": 361375400,
   "status": "passed"
 });
 formatter.match({
@@ -253,61 +410,39 @@ formatter.match({
   "location": "InserirContasSteps.aSenha(String)"
 });
 formatter.result({
-  "duration": 158565200,
+  "duration": 180777000,
   "status": "passed"
 });
 formatter.match({
   "location": "InserirContasSteps.selecionoEntrar()"
 });
 formatter.result({
-  "duration": 1614112800,
+  "duration": 1270615100,
   "status": "passed"
 });
 formatter.match({
   "location": "InserirContasSteps.visualizoAPáginaInicial()"
 });
 formatter.result({
-  "duration": 61961600,
+  "duration": 69135100,
   "status": "passed"
 });
 formatter.match({
   "location": "InserirContasSteps.selecionoContas()"
 });
 formatter.result({
-  "duration": 135626700,
+  "duration": 134472100,
   "status": "passed"
 });
 formatter.match({
   "location": "InserirContasSteps.selecionoAdicionar()"
 });
 formatter.result({
-  "duration": 406549900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "InserirContasSteps.selecionoSalvar()"
-});
-formatter.result({
-  "duration": 367290800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "InserirContasSteps.souNotificadoQueONomeDaContaÉObrigatório()"
-});
-formatter.result({
-  "duration": 60844900,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 896078400,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 57700,
+  "duration": 423734300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 32,
+  "line": 28,
   "name": "Não deve inserir uma conta com nome já existente",
   "description": "",
   "id": "cadastro-de-contas;não-deve-inserir-uma-conta-com-nome-já-existente",
@@ -315,115 +450,19 @@ formatter.scenario({
   "keyword": "Cenário"
 });
 formatter.step({
-  "line": 33,
-  "name": "que estou acessando a aplicação",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 34,
-  "name": "informo o usuário \"gloomybrgames@gmail.com\"",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 35,
-  "name": "a senha \"pedro1997\"",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 36,
-  "name": "seleciono entrar",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 37,
-  "name": "visualizo a página inicial",
-  "keyword": "Então "
-});
-formatter.step({
-  "line": 38,
-  "name": "seleciono Contas",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 39,
-  "name": "seleciono Adicionar",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 40,
+  "line": 29,
   "name": "informo a conta \"Conta de Teste\"",
   "keyword": "E "
 });
 formatter.step({
-  "line": 41,
+  "line": 30,
   "name": "seleciono Salvar",
   "keyword": "E "
 });
 formatter.step({
-  "line": 42,
+  "line": 31,
   "name": "sou notificado que já existe uma conta com esse nome",
   "keyword": "Então "
-});
-formatter.match({
-  "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
-});
-formatter.result({
-  "duration": 5421295400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "gloomybrgames@gmail.com",
-      "offset": 19
-    }
-  ],
-  "location": "InserirContasSteps.informoOUsuário(String)"
-});
-formatter.result({
-  "duration": 259848300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "pedro1997",
-      "offset": 9
-    }
-  ],
-  "location": "InserirContasSteps.aSenha(String)"
-});
-formatter.result({
-  "duration": 236172700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "InserirContasSteps.selecionoEntrar()"
-});
-formatter.result({
-  "duration": 989096400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "InserirContasSteps.visualizoAPáginaInicial()"
-});
-formatter.result({
-  "duration": 65150900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "InserirContasSteps.selecionoContas()"
-});
-formatter.result({
-  "duration": 105444200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "InserirContasSteps.selecionoAdicionar()"
-});
-formatter.result({
-  "duration": 330976000,
-  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -435,25 +474,25 @@ formatter.match({
   "location": "InserirContasSteps.informoAConta(String)"
 });
 formatter.result({
-  "duration": 184532100,
+  "duration": 216379900,
   "status": "passed"
 });
 formatter.match({
   "location": "InserirContasSteps.selecionoSalvar()"
 });
 formatter.result({
-  "duration": 439224600,
+  "duration": 419065700,
   "status": "passed"
 });
 formatter.match({
   "location": "InserirContasSteps.souNotificadoQueJáExisteUmaContaComEsseNome()"
 });
 formatter.result({
-  "duration": 54364500,
+  "duration": 99902300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 801946900,
+  "duration": 934076300,
   "status": "passed"
 });
 });
