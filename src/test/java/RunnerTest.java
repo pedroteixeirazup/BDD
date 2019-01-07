@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 @CucumberOptions(plugin = {"pretty","html:target/report-html","json:target/report.json"},
         monochrome = false,
         snippets = SnippetType.CAMELCASE,
-        features = "src/test/java/resource/alugar_filme.feature",
+        features = "src/test/java/resource/inserir_conta.feature",
         dryRun = false,
         strict = false,
-        tags = {}
+        tags = {"~@ignore"}
 )
 public class RunnerTest {
 }
